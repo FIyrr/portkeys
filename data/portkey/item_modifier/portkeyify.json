@@ -3,7 +3,7 @@
   "tag": {
     "portkey": {
         "is_portkey":true,
-        "active":true
+        "active":false
     }
     
   }
@@ -37,5 +37,14 @@
     "components": {
       "minecraft:enchantment_glint_override": true
     }
+  },
+    {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {"color":"#c5a1ff","text":"","italic":false,"extra":[{"bold":true,"text":"☍"}," Portkey"]
+    }
+    ],
+    "mode": "insert",
+    "offset": 0
   }
 ]

@@ -1,1 +1,1 @@
-$item replace entity @s weapon.mainhand with blue_dye[custom_data={portkey:{coordinates:[$(x),$(y),$(z)],rotation:[$(rot_x),$(rot_y)],dimension:"$(dim)",is_portkey:true,active:true}},enchantment_glint_override=true,rarity="rare"] 1
+$item replace entity @s weapon.mainhand with blue_dye[custom_data={portkey:{coordinates:[$(x),$(y),$(z)],rotation:[$(rot_x),$(rot_y)],dimension:"$(dim)",is_portkey:true,active:false}},enchantment_glint_override=true,rarity="rare"] 1

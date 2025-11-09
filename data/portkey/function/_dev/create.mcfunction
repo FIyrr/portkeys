@@ -1,3 +1,3 @@
-say Created portkey :)
+tellraw @s ["",{color:"#481f51",text:"["},{color:"#a8b3ec",text:"P"},{color:"#a9b0ea",text:"o"},{color:"#a9ade7",text:"r"},{color:"#a9abe5",text:"t"},{color:"#a9a8e2",text:"k"},{color:"#aaa5df",text:"e"},{color:"#aaa2dd",text:"y"},{color:"#aa9fda",text:"s "},{color:"red",text:"DEV"},{color:"#481f51",text:"]"}," ",{color:"yellow",text:"Created portkey!"}]
 function portkey:create/prepare
 function portkey:_dev/zzz_private/create with storage portkey:temp coordinate

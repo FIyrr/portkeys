@@ -9,4 +9,9 @@ $data modify storage portkey:temp coordinate.dim set from entity @s Inventory[$(
 
 $item modify entity @s container.$(slot_id) portkey:deactivate
 
+execute store result storage portkey:temp coordinate.range float 0.1 run scoreboard players get %range portkey.settings
+
+execute if score %teleport_bosses portkey.settings matches 1 run data merge storage portkey:temp {coordinate:{entities:"#portkey:ignore_without_bosses"}}
+execute if score %teleport_bosses portkey.settings matches 0 run data merge storage portkey:temp {coordinate:{entities:"#portkey:ignore"}}
+
 $say portkey detected in $(slot_id)

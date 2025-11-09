@@ -1,2 +1,2 @@
 execute as @a[tag=portkey.teleported] at @s run function portkey:teleport/fx
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{portkey:{is_portkey:true}}}}}] at @s run function portkey:as_item
+execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{portkey:{is_portkey:true}}}}}] at @s run function portkey:item/main
