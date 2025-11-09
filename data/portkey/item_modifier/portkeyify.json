@@ -1,0 +1,41 @@
+[{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "portkey": {
+        "is_portkey":true,
+        "active":true
+    }
+    
+  }
+},
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:context",
+    "target": "this"
+  },
+  "ops": [
+    {
+      "source": "Pos",
+      "target": "portkey.coordinates",
+      "op": "replace"
+    },
+    {
+      "source": "Dimension",
+      "target": "portkey.dimension",
+      "op": "replace"
+    },
+    {
+      "source": "Rotation",
+      "target": "portkey.rotation",
+      "op": "replace"
+    }
+  ]
+},
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+]
