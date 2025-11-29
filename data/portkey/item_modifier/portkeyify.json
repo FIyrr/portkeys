@@ -3,7 +3,8 @@
   "tag": {
     "portkey": {
         "is_portkey":true,
-        "active":false
+        "active":false,
+        "teleport":true
     }
     
   }

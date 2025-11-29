@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:flint",
+          "predicates": {
+            "minecraft:custom_data": "{portkey:{is_stone:1b}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "portkey:stone_of_teleportation/rightclick"
+  }
+}

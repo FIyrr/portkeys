@@ -1,0 +1,19 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "weapon.offhand": {
+        "predicates": {
+          "minecraft:custom_data": "{portkey:{is_stone:1b}}"
+        }
+      },
+      "weapon.mainhand": {
+        "count": {
+          "min": 1,
+          "max": 128
+        }
+      }
+    }
+  }
+}

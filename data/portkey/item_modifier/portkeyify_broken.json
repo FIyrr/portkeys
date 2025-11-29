@@ -1,0 +1,27 @@
+[{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "portkey": {
+        "is_portkey":true,
+        "active":false,
+        "teleport":false
+    }
+    
+  }
+},
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+    {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {"color":"#ff7676","text":"","italic":false,"extra":[{"bold":false,"text":"💥 "},"Broken Portkey"]
+    }
+    ],
+    "mode": "insert",
+    "offset": 0
+  }
+]

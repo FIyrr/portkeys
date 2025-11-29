@@ -1,3 +1,3 @@
 execute store result score @s portkey.age run data get entity @s Age
-execute if score @s portkey.age = %cooldown portkey.settings run function portkey:item/activate
+execute if score @s portkey.age = %cooldown portkey.settings run function portkey:dropped_item/activate
 execute if score %item_particles portkey.settings matches 1 if predicate {condition:"minecraft:random_chance","chance": 0.34} if score @s portkey.age >= %cooldown portkey.settings run particle minecraft:enchant ~ ~0.6 ~ 0.3 0.3 0.3 1 1

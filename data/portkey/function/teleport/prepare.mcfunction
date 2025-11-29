@@ -13,5 +13,3 @@ execute store result storage portkey:temp coordinate.range float 0.1 run scorebo
 
 execute if score %teleport_bosses portkey.settings matches 1 run data merge storage portkey:temp {coordinate:{entities:"#portkey:ignore_without_bosses"}}
 execute if score %teleport_bosses portkey.settings matches 0 run data merge storage portkey:temp {coordinate:{entities:"#portkey:ignore"}}
-
-$say portkey detected in $(slot_id)

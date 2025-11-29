@@ -1,4 +1,3 @@
-say searching for portkey...
 execute if items entity @s container.0 *[minecraft:custom_data~{portkey:{active:1b}}] run return run data modify storage portkey:temp slot_id set value 0
 execute if items entity @s container.1 *[minecraft:custom_data~{portkey:{active:1b}}] run return run data modify storage portkey:temp slot_id set value 1
 execute if items entity @s container.2 *[minecraft:custom_data~{portkey:{active:1b}}] run return run data modify storage portkey:temp slot_id set value 2
