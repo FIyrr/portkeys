@@ -16,4 +16,4 @@ scoreboard players set %additional_particles portkey.settings 1
 ### NUMERICAL SETTINGS ###
 # Divide by 10 -> e.g. 25 = 2.5 blocks
 scoreboard players set %range portkey.settings 25 
-scoreboard players set %cooldown portkey.settings 25 
+scoreboard players set %cooldown portkey.settings 30 
