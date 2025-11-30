@@ -1,2 +1,3 @@
-$execute if score %include_entities portkey.settings matches 1 in $(dim) run spreadplayers $(x) $(z) 0.5 3 false @e[distance=..$(range),type=!$(entities)]
-$execute unless score %include_entities portkey.settings matches 1 in $(dim) run spreadplayers $(x) $(z) 0.5 3 false @a[distance=..$(range)]
+$execute if score %include_entities portkey.settings matches 1 in $(dim) run spreadplayers $(x) $(z) 0.5 3 false @e[distance=..$(range),type=!$(entities),type=!player]
+$execute if score %include_players portkey.settings matches 1 in $(dim) run spreadplayers $(x) $(z) 0.5 3 false @a[distance=..$(range)]
+$execute unless score %include_players portkey.settings matches 1 in $(dim) run spreadplayers $(x) $(z) 0.5 3 false @s

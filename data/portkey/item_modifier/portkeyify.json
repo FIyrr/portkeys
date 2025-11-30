@@ -41,10 +41,7 @@
   },
     {
     "function": "minecraft:set_lore",
-    "lore": [
-      {"color":"#c5a1ff","text":"","italic":false,"extra":[{"bold":true,"text":"☍"}," Portkey"]
-    }
-    ],
+    "lore": [[{"bold":true,"color":"#C5A1FF","italic":false,"text":"☍ "},{"bold":false,"fallback":"Portkey","italic":false,"translate":"portkeys.portkey"}]],
     "mode": "insert",
     "offset": 0
   }
