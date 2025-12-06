@@ -3,10 +3,10 @@ execute unless score %reloads portkey.misc matches 1 run tellraw @s ["",{color:"
 
 ### BOOLEAN SETTINGS (1=TRUE, 0=FALSE) ###
 # Teleportation
-scoreboard players set %include_others portkey.settings 1
 scoreboard players set %include_players portkey.settings 1
+scoreboard players set %include_entities portkey.settings 1
+scoreboard players set %include_bosses portkey.settings 0
 scoreboard players set %exact_teleport portkey.settings 0
-scoreboard players set %teleport_bosses portkey.settings 0
 
 # Dropped Portkeys
 scoreboard players set %item_particles portkey.settings 1
@@ -15,5 +15,5 @@ scoreboard players set %additional_particles portkey.settings 1
 
 ### NUMERICAL SETTINGS ###
 # Divide by 10 -> e.g. 25 = 2.5 blocks
-scoreboard players set %range portkey.settings 25 
+scoreboard players set %range portkey.settings 20
 scoreboard players set %cooldown portkey.settings 30 
